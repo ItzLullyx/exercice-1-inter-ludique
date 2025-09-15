@@ -236,7 +236,6 @@ texture = ExtResource("4_d21ai")
 position = Vector2(132, 347)
 scale = Vector2(1.27344, 1.27344)
 sprite_frames = SubResource("SpriteFrames_0h7mo")
-frame_progress = 0.397158
 
 [node name="Green" type="AnimatedSprite2D" parent="."]
 position = Vector2(334, 347)
