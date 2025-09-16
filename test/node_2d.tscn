@@ -1,4 +1,4 @@
-[gd_scene load_steps=21 format=3 uid="uid://b24vhxu0bretj"]
+[gd_scene load_steps=23 format=3 uid="uid://b24vhxu0bretj"]
 
 [ext_resource type="Texture2D" uid="uid://dupnd55wmnnv2" path="res://medias/environment/sky/background_clouds.png" id="1_0hol4"]
 [ext_resource type="Script" uid="uid://cycwfdy4hgh4q" path="res://node_2d.gd" id="1_4d7sh"]
@@ -85,6 +85,14 @@ animations = [{
 "name": &"default",
 "speed": 10.0
 }]
+
+[sub_resource type="SystemFont" id="SystemFont_d2bti"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_ta5nu"]
+font = SubResource("SystemFont_d2bti")
+font_size = 35
+shadow_size = 9
+shadow_color = Color(0, 0, 0, 0.5019608)
 
 [node name="Node2D" type="Node2D"]
 script = ExtResource("1_4d7sh")
@@ -256,3 +264,48 @@ sprite_frames = SubResource("SpriteFrames_ta5nu")
 position = Vector2(976, 347)
 scale = Vector2(1.27344, 1.27344)
 sprite_frames = SubResource("SpriteFrames_flf07")
+
+[node name="A" type="Label" parent="."]
+offset_left = 91.0
+offset_top = 238.0
+offset_right = 172.0
+offset_bottom = 287.0
+text = "> A <"
+label_settings = SubResource("LabelSettings_ta5nu")
+horizontal_alignment = 1
+
+[node name="S" type="Label" parent="."]
+offset_left = 293.0
+offset_top = 238.0
+offset_right = 374.0
+offset_bottom = 287.0
+text = "> S <"
+label_settings = SubResource("LabelSettings_ta5nu")
+horizontal_alignment = 1
+
+[node name="D" type="Label" parent="."]
+offset_left = 501.0
+offset_top = 238.0
+offset_right = 585.0
+offset_bottom = 287.0
+text = "> D <"
+label_settings = SubResource("LabelSettings_ta5nu")
+horizontal_alignment = 1
+
+[node name="F" type="Label" parent="."]
+offset_left = 716.0
+offset_top = 238.0
+offset_right = 800.0
+offset_bottom = 287.0
+text = "> F <"
+label_settings = SubResource("LabelSettings_ta5nu")
+horizontal_alignment = 1
+
+[node name="G" type="Label" parent="."]
+offset_left = 933.0
+offset_top = 238.0
+offset_right = 1017.0
+offset_bottom = 287.0
+text = "> G <"
+label_settings = SubResource("LabelSettings_ta5nu")
+horizontal_alignment = 1
