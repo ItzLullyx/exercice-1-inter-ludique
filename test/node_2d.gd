@@ -31,7 +31,7 @@ func _input(event: InputEvent) -> void:
 			anim_beige.play("default")
 			playing_beige = true
 			song.play()
-	
+
 	if event is InputEventKey and event.pressed and event.keycode == KEY_S:
 		if playing_green:
 			anim_green.stop()
