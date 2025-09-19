@@ -122,12 +122,13 @@ position = Vector2(822, 304)
 texture = ExtResource("1_0hol4")
 
 [node name="BackgroundClouds6" type="Sprite2D" parent="Environment"]
-position = Vector2(1078, 304)
+position = Vector2(1051.5, 304)
+scale = Vector2(0.79296875, 1)
 texture = ExtResource("1_0hol4")
 
 [node name="BackgroundSolidSky" type="Sprite2D" parent="Environment"]
-position = Vector2(567, 66)
-scale = Vector2(5.01563, 1.25781)
+position = Vector2(538.9997, 66)
+scale = Vector2(4.7968774, 1.25781)
 texture = ExtResource("2_q6r6c")
 
 [node name="TerrainGrassBlockCenter" type="Sprite2D" parent="Environment"]
@@ -182,9 +183,9 @@ scale = Vector2(1.73437, 1.73437)
 texture = ExtResource("3_kdubu")
 
 [node name="TerrainGrassBlockCenter11" type="Sprite2D" parent="Environment"]
-position = Vector2(1124.5, 592.593)
+position = Vector2(1111.5209, 592.61475)
 rotation = -0.00167445
-scale = Vector2(1.73437, 1.73437)
+scale = Vector2(1.3287718, 1.73437)
 texture = ExtResource("3_kdubu")
 
 [node name="TerrainGrassBlockTop" type="Sprite2D" parent="Environment"]
@@ -238,8 +239,8 @@ scale = Vector2(1.73242, 1.73242)
 texture = ExtResource("4_d21ai")
 
 [node name="TerrainGrassBlockTop11" type="Sprite2D" parent="Environment"]
-position = Vector2(1121, 482)
-scale = Vector2(1.73242, 1.73242)
+position = Vector2(1109.7813, 482)
+scale = Vector2(1.3818356, 1.73242)
 texture = ExtResource("4_d21ai")
 
 [node name="CogworkDancers" type="AudioStreamPlayer2D" parent="."]
